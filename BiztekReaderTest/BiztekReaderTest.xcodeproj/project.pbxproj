@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD11849F15B3A4AF004ACDFA /* BookDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD11849E15B3A4AF004ACDFA /* BookDownloadViewController.m */; };
+		BD210CFC15A5A4B5005FB8CE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD210CFB15A5A4B5005FB8CE /* UIKit.framework */; };
+		BD210CFE15A5A4B5005FB8CE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD210CFD15A5A4B5005FB8CE /* Foundation.framework */; };
+		BD210D0015A5A4B5005FB8CE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD210CFF15A5A4B5005FB8CE /* CoreGraphics.framework */; };
+		BD210D0615A5A4B5005FB8CE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD210D0415A5A4B5005FB8CE /* InfoPlist.strings */; };
+		BD210D0815A5A4B5005FB8CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD210D0715A5A4B5005FB8CE /* main.m */; };
+		BD210D0C15A5A4B5005FB8CE /* HelloWorldAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD210D0B15A5A4B5005FB8CE /* HelloWorldAppDelegate.m */; };
+		BD210D0F15A5A4B5005FB8CE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD210D0D15A5A4B5005FB8CE /* MainStoryboard.storyboard */; };
+		BD210D1215A5A4B5005FB8CE /* HelloWorldFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD210D1115A5A4B5005FB8CE /* HelloWorldFirstViewController.m */; };
+		BD210D1415A5A4B5005FB8CE /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BD210D1315A5A4B5005FB8CE /* first.png */; };
+		BD210D1615A5A4B5005FB8CE /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD210D1515A5A4B5005FB8CE /* first@2x.png */; };
+		BD210D1915A5A4B5005FB8CE /* HelloWorldSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD210D1815A5A4B5005FB8CE /* HelloWorldSecondViewController.m */; };
+		BD210D1B15A5A4B5005FB8CE /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BD210D1A15A5A4B5005FB8CE /* second.png */; };
+		BD210D1D15A5A4B5005FB8CE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD210D1C15A5A4B5005FB8CE /* second@2x.png */; };
+		BD55908E15A96C24005CB423 /* StoreHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55908D15A96C24005CB423 /* StoreHomeViewController.m */; };
+		BD5C0A1515AE93E200278001 /* biztek_image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD5C0A1415AE93E200278001 /* biztek_image1.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD11849E15B3A4AF004ACDFA /* BookDownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookDownloadViewController.m; sourceTree = "<group>"; };
+		BD1B253B15B1642D0004110E /* BookDownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookDownloadViewController.h; sourceTree = "<group>"; };
+		BD210CF715A5A4B5005FB8CE /* BiztekReaderTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiztekReaderTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD210CFB15A5A4B5005FB8CE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD210CFD15A5A4B5005FB8CE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD210CFF15A5A4B5005FB8CE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD210D0315A5A4B5005FB8CE /* BiztekReaderTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BiztekReaderTest-Info.plist"; sourceTree = "<group>"; };
+		BD210D0515A5A4B5005FB8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD210D0715A5A4B5005FB8CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD210D0915A5A4B5005FB8CE /* BiztekReaderTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BiztekReaderTest-Prefix.pch"; sourceTree = "<group>"; };
+		BD210D0A15A5A4B5005FB8CE /* HelloWorldAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldAppDelegate.h; sourceTree = "<group>"; };
+		BD210D0B15A5A4B5005FB8CE /* HelloWorldAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldAppDelegate.m; sourceTree = "<group>"; };
+		BD210D0E15A5A4B5005FB8CE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		BD210D1015A5A4B5005FB8CE /* HelloWorldFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldFirstViewController.h; sourceTree = "<group>"; };
+		BD210D1115A5A4B5005FB8CE /* HelloWorldFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldFirstViewController.m; sourceTree = "<group>"; };
+		BD210D1315A5A4B5005FB8CE /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		BD210D1515A5A4B5005FB8CE /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		BD210D1715A5A4B5005FB8CE /* HelloWorldSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldSecondViewController.h; sourceTree = "<group>"; };
+		BD210D1815A5A4B5005FB8CE /* HelloWorldSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldSecondViewController.m; sourceTree = "<group>"; };
+		BD210D1A15A5A4B5005FB8CE /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		BD210D1C15A5A4B5005FB8CE /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		BD55908C15A96C14005CB423 /* StoreHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreHomeViewController.h; sourceTree = "<group>"; };
+		BD55908D15A96C24005CB423 /* StoreHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreHomeViewController.m; sourceTree = "<group>"; };
+		BD5C0A1415AE93E200278001 /* biztek_image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = biztek_image1.jpg; path = BiztekReaderTest/biztek_image1.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD210CF415A5A4B5005FB8CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD210CFC15A5A4B5005FB8CE /* UIKit.framework in Frameworks */,
+				BD210CFE15A5A4B5005FB8CE /* Foundation.framework in Frameworks */,
+				BD210D0015A5A4B5005FB8CE /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD1B253715B163E00004110E /* LibraryHome */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B253B15B1642D0004110E /* BookDownloadViewController.h */,
+				BD11849E15B3A4AF004ACDFA /* BookDownloadViewController.m */,
+			);
+			name = LibraryHome;
+			sourceTree = "<group>";
+		};
+		BD210CEC15A5A4B4005FB8CE = {
+			isa = PBXGroup;
+			children = (
+				BD83233215A6AC420035D3C8 /* assets */,
+				BD210D0115A5A4B5005FB8CE /* BiztekReaderTest */,
+				BD210CFA15A5A4B5005FB8CE /* Frameworks */,
+				BD210CF815A5A4B5005FB8CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD210CF815A5A4B5005FB8CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD210CF715A5A4B5005FB8CE /* BiztekReaderTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD210CFA15A5A4B5005FB8CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD210CFB15A5A4B5005FB8CE /* UIKit.framework */,
+				BD210CFD15A5A4B5005FB8CE /* Foundation.framework */,
+				BD210CFF15A5A4B5005FB8CE /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD210D0115A5A4B5005FB8CE /* BiztekReaderTest */ = {
+			isa = PBXGroup;
+			children = (
+				BD1B253715B163E00004110E /* LibraryHome */,
+				BD55908A15A96BE6005CB423 /* storeHome */,
+				BD210D0A15A5A4B5005FB8CE /* HelloWorldAppDelegate.h */,
+				BD210D0B15A5A4B5005FB8CE /* HelloWorldAppDelegate.m */,
+				BD210D0D15A5A4B5005FB8CE /* MainStoryboard.storyboard */,
+				BD210D1015A5A4B5005FB8CE /* HelloWorldFirstViewController.h */,
+				BD210D1115A5A4B5005FB8CE /* HelloWorldFirstViewController.m */,
+				BD210D1315A5A4B5005FB8CE /* first.png */,
+				BD210D1515A5A4B5005FB8CE /* first@2x.png */,
+				BD210D1715A5A4B5005FB8CE /* HelloWorldSecondViewController.h */,
+				BD210D1815A5A4B5005FB8CE /* HelloWorldSecondViewController.m */,
+				BD210D1A15A5A4B5005FB8CE /* second.png */,
+				BD210D1C15A5A4B5005FB8CE /* second@2x.png */,
+				BD210D0215A5A4B5005FB8CE /* Supporting Files */,
+			);
+			path = BiztekReaderTest;
+			sourceTree = "<group>";
+		};
+		BD210D0215A5A4B5005FB8CE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD210D0315A5A4B5005FB8CE /* BiztekReaderTest-Info.plist */,
+				BD210D0415A5A4B5005FB8CE /* InfoPlist.strings */,
+				BD210D0715A5A4B5005FB8CE /* main.m */,
+				BD210D0915A5A4B5005FB8CE /* BiztekReaderTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD55908A15A96BE6005CB423 /* storeHome */ = {
+			isa = PBXGroup;
+			children = (
+				BD55908C15A96C14005CB423 /* StoreHomeViewController.h */,
+				BD55908D15A96C24005CB423 /* StoreHomeViewController.m */,
+			);
+			name = storeHome;
+			sourceTree = "<group>";
+		};
+		BD83233215A6AC420035D3C8 /* assets */ = {
+			isa = PBXGroup;
+			children = (
+				BD83233315A6AC570035D3C8 /* images */,
+			);
+			name = assets;
+			sourceTree = "<group>";
+		};
+		BD83233315A6AC570035D3C8 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BD5C0A1415AE93E200278001 /* biztek_image1.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD210CF615A5A4B5005FB8CE /* BiztekReaderTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD210D2015A5A4B5005FB8CE /* Build configuration list for PBXNativeTarget "BiztekReaderTest" */;
+			buildPhases = (
+				BD210CF315A5A4B5005FB8CE /* Sources */,
+				BD210CF415A5A4B5005FB8CE /* Frameworks */,
+				BD210CF515A5A4B5005FB8CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BiztekReaderTest;
+			productName = BiztekReaderTest;
+			productReference = BD210CF715A5A4B5005FB8CE /* BiztekReaderTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD210CEE15A5A4B4005FB8CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HelloWorld;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = BD210CF115A5A4B4005FB8CE /* Build configuration list for PBXProject "BiztekReaderTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD210CEC15A5A4B4005FB8CE;
+			productRefGroup = BD210CF815A5A4B5005FB8CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD210CF615A5A4B5005FB8CE /* BiztekReaderTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD210CF515A5A4B5005FB8CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD210D0615A5A4B5005FB8CE /* InfoPlist.strings in Resources */,
+				BD210D0F15A5A4B5005FB8CE /* MainStoryboard.storyboard in Resources */,
+				BD210D1415A5A4B5005FB8CE /* first.png in Resources */,
+				BD210D1615A5A4B5005FB8CE /* first@2x.png in Resources */,
+				BD210D1B15A5A4B5005FB8CE /* second.png in Resources */,
+				BD210D1D15A5A4B5005FB8CE /* second@2x.png in Resources */,
+				BD5C0A1515AE93E200278001 /* biztek_image1.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD210CF315A5A4B5005FB8CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD210D0815A5A4B5005FB8CE /* main.m in Sources */,
+				BD210D0C15A5A4B5005FB8CE /* HelloWorldAppDelegate.m in Sources */,
+				BD210D1215A5A4B5005FB8CE /* HelloWorldFirstViewController.m in Sources */,
+				BD210D1915A5A4B5005FB8CE /* HelloWorldSecondViewController.m in Sources */,
+				BD55908E15A96C24005CB423 /* StoreHomeViewController.m in Sources */,
+				BD11849F15B3A4AF004ACDFA /* BookDownloadViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD210D0415A5A4B5005FB8CE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD210D0515A5A4B5005FB8CE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD210D0D15A5A4B5005FB8CE /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD210D0E15A5A4B5005FB8CE /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD210D1E15A5A4B5005FB8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BD210D1F15A5A4B5005FB8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD210D2115A5A4B5005FB8CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiztekReaderTest/BiztekReaderTest-Prefix.pch";
+				INFOPLIST_FILE = "BiztekReaderTest/BiztekReaderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD210D2215A5A4B5005FB8CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BiztekReaderTest/BiztekReaderTest-Prefix.pch";
+				INFOPLIST_FILE = "BiztekReaderTest/BiztekReaderTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD210CF115A5A4B4005FB8CE /* Build configuration list for PBXProject "BiztekReaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD210D1E15A5A4B5005FB8CE /* Debug */,
+				BD210D1F15A5A4B5005FB8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD210D2015A5A4B5005FB8CE /* Build configuration list for PBXNativeTarget "BiztekReaderTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD210D2115A5A4B5005FB8CE /* Debug */,
+				BD210D2215A5A4B5005FB8CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD210CEE15A5A4B4005FB8CE /* Project object */;
+}
