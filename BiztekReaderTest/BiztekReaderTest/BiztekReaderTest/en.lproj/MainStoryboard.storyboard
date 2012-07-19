@@ -35,21 +35,6 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </tableView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="2wL-6W-5iF">
-                                <rect key="frame" x="0.0" y="158" width="768" height="158"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </scrollView>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="CXw-8B-Xks">
-                                <rect key="frame" x="0.0" y="313" width="768" height="657"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                            </scrollView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Sort by" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="lSu-Fk-gnK">
-                                <rect key="frame" x="188" y="50" width="42" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <color key="highlightedColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -89,7 +74,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0u-RX-wdc" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="cI6-3H-keh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MwX-tM-dy3">
-                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="911"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="List view setelah memilih kategori atau genre" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="xom-aw-Rkl">
@@ -108,7 +93,7 @@
                     </connections>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="-915" y="-3632"/>
+            <point key="canvasLocation" x="262" y="-3640"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Jwl-BN-YFP">
@@ -116,7 +101,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xv8-hN-chP" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="Z8T-88-ytQ" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tGk-jw-UfO">
-                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="911"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Detail view" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="8Kd-nW-o7Y">
@@ -132,7 +117,7 @@
                     <navigationItem key="navigationItem" id="e23-e3-oKY"/>
                 </viewController>
             </objects>
-            <point key="canvasLocation" x="459" y="-3632"/>
+            <point key="canvasLocation" x="1467" y="-3640"/>
         </scene>
         <!--Navigation Controller - Setting-->
         <scene sceneID="Mr6-aQ-e1A">
@@ -143,9 +128,12 @@
                     <navigationBar key="navigationBar" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="vg0-5T-MgN">
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
+                    <connections>
+                        <segue destination="3" kind="relationship" relationship="rootViewController" id="abZ-mj-r7C"/>
+                    </connections>
                 </navigationController>
             </objects>
-            <point key="canvasLocation" x="-2051" y="-799"/>
+            <point key="canvasLocation" x="-2051" y="-3632"/>
         </scene>
         <!--Store Home View Controller - Store-->
         <scene sceneID="13">
@@ -153,7 +141,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="12" sceneMemberID="firstResponder"/>
                 <viewController id="3" customClass="StoreHomeViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="16">
-                        <rect key="frame" x="0.0" y="20" width="768" height="955"/>
+                        <rect key="frame" x="0.0" y="64" width="768" height="911"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="biztek_image1.jpg" id="uF6-Y7-pif">
@@ -224,7 +212,7 @@
                                 </connections>
                             </pageControl>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" id="C4e-1b-LeU">
-                                <rect key="frame" x="0.0" y="520" width="768" height="380"/>
+                                <rect key="frame" x="0.0" y="476" width="768" height="380"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="3" id="wrs-2K-kZl"/>
@@ -252,7 +240,7 @@
                     </connections>
                 </searchDisplayController>
             </objects>
-            <point key="canvasLocation" x="-2061" y="-3624"/>
+            <point key="canvasLocation" x="-909" y="-3640"/>
         </scene>
         <!--Table View Controller - Item-->
         <scene sceneID="V58-Nj-YT0">
@@ -400,7 +388,7 @@
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
             </objects>
-            <point key="canvasLocation" x="-904" y="-799"/>
+            <point key="canvasLocation" x="-2088" y="-847"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="15">
@@ -414,9 +402,9 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="3" kind="relationship" relationship="viewControllers" id="Jd3-Rx-xX6"/>
-                        <segue destination="2" kind="relationship" relationship="viewControllers" id="O4p-a7-oVC"/>
-                        <segue destination="sBd-tA-WnQ" kind="relationship" relationship="viewControllers" id="1CM-6J-ZhO"/>
+                        <segue destination="sBd-tA-WnQ" kind="relationship" relationship="viewControllers" id="h7V-tM-6Ya"/>
+                        <segue destination="2" kind="relationship" relationship="viewControllers" id="46Z-yQ-Eiq"/>
+                        <segue destination="Vj6-mO-yxE" kind="relationship" relationship="viewControllers" id="Bg1-uY-ZTb"/>
                     </connections>
                 </tabBarController>
             </objects>
