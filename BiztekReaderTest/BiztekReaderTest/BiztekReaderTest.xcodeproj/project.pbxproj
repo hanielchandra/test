@@ -23,6 +23,7 @@
 		BD210D1D15A5A4B5005FB8CE /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BD210D1C15A5A4B5005FB8CE /* second@2x.png */; };
 		BD55908E15A96C24005CB423 /* StoreHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD55908D15A96C24005CB423 /* StoreHomeViewController.m */; };
 		BD5C0A1515AE93E200278001 /* biztek_image1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BD5C0A1415AE93E200278001 /* biztek_image1.jpg */; };
+		BD90EE1A15B80D530030C498 /* LibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD90EE1915B80D530030C498 /* LibraryViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		BD55908D15A96C24005CB423 /* StoreHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreHomeViewController.m; sourceTree = "<group>"; };
 		BD5C0A1415AE93E200278001 /* biztek_image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = biztek_image1.jpg; path = BiztekReaderTest/biztek_image1.jpg; sourceTree = "<group>"; };
 		BD90EE1415B7D1BE0030C498 /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
+		BD90EE1915B80D530030C498 /* LibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LibraryViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				BD1B253B15B1642D0004110E /* BookDownloadViewController.h */,
 				BD11849E15B3A4AF004ACDFA /* BookDownloadViewController.m */,
 				BD90EE1415B7D1BE0030C498 /* LibraryViewController.h */,
+				BD90EE1915B80D530030C498 /* LibraryViewController.m */,
 			);
 			name = LibraryHome;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				BD210D1915A5A4B5005FB8CE /* HelloWorldSecondViewController.m in Sources */,
 				BD55908E15A96C24005CB423 /* StoreHomeViewController.m in Sources */,
 				BD11849F15B3A4AF004ACDFA /* BookDownloadViewController.m in Sources */,
+				BD90EE1A15B80D530030C498 /* LibraryViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
