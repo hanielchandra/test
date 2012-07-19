@@ -50,6 +50,7 @@
 		BD55908C15A96C14005CB423 /* StoreHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreHomeViewController.h; sourceTree = "<group>"; };
 		BD55908D15A96C24005CB423 /* StoreHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreHomeViewController.m; sourceTree = "<group>"; };
 		BD5C0A1415AE93E200278001 /* biztek_image1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = biztek_image1.jpg; path = BiztekReaderTest/biztek_image1.jpg; sourceTree = "<group>"; };
+		BD90EE1415B7D1BE0030C498 /* LibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibraryViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +72,7 @@
 			children = (
 				BD1B253B15B1642D0004110E /* BookDownloadViewController.h */,
 				BD11849E15B3A4AF004ACDFA /* BookDownloadViewController.m */,
+				BD90EE1415B7D1BE0030C498 /* LibraryViewController.h */,
 			);
 			name = LibraryHome;
 			sourceTree = "<group>";
